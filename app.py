@@ -10,7 +10,7 @@ st.set_page_config(page_title='Breast Cancer Wisconsin Diagnosis',
                    layout='wide', 
                    page_icon='🩺')
 
-diagnosis_model = pickle.load(open(r"..\Breast-Cancer-Wisconsin-Diagnosis\diagnosis_model.sav",'rb'))
+diagnosis_model = pickle.load(open(r"..\Breast Cancer Wisconsin Diagnosis\diagnosis_model.sav",'rb'))
 
 
 st.title('Breast Cancer Wisconsin Diagnosis 🧑‍⚕️')
