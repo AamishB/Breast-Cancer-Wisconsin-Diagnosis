@@ -11,8 +11,11 @@ Deployed on Streamlit, the application provides an intuitive interface where use
 The dataset used is the Breast Cancer (Diagnostic) dataset, available from Kaggle. It contains 569 samples, each with 30 numerical features derived from digitized images of fine needle aspirates, including mean, standard error, and "worst" values for attributes like radius, texture, perimeter, area, smoothness, compactness, concavity, concave points, symmetry, and fractal dimension. The target variable indicates whether the tumor is Malignant (1) or Benign (0).
 
 Number of Samples: 569
+
 Number of Features: 30
+
 Feature Examples: Radius, texture, perimeter, area, smoothness
+
 Target Variable: Malignant (1) or Benign (0)
 
 Dataset link: https://www.kaggle.com/datasets/rahmasleam/breast-cancer/data
@@ -20,25 +23,35 @@ Dataset link: https://www.kaggle.com/datasets/rahmasleam/breast-cancer/data
 ## Model Details and Streamlit Deployment
 
 Model Type: Logistic Regression.
+
 Training Process: Feature selection, mean normalization.
+
 Performance Metrics: Accuracy score.
 
 Visit the app at https://breast-cancer-wisconsin-diagnosis.streamlit.app/.
 
 Input fields will appear for features like radius, texture, etc..
+
 Enter the values and click "Diagnosis Result" to see the result: "Malignant" or "Benign."
 
 ## Dependencies and Local Setup
 
 Python 3.x
+
 Streamlit
+
 Scikit-learn
+
 Pandas
+
 NumPy
 
 Step-by-step instructions:
 
 Clone the repository: git clone https://github.com/AamishB/Breast-Cancer-Wisconsin-Diagnosis.git
+
 Navigate to the project directory: cd Breast_Cancer_Wisconsin_Diagnosis
+
 Install dependencies: pip install -r requirements.txt
+
 Run the application: streamlit run app.py
