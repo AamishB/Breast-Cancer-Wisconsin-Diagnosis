@@ -1,4 +1,4 @@
-# Breast-Cancer-Wisconsin-Diagnosis
+# Breast Cancer Wisconsin Diagnosis
 
 ## Project Overview
 
