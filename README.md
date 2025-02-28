@@ -23,7 +23,7 @@ Model Type: Logistic Regression.
 Training Process: Feature selection, mean normalization.
 Performance Metrics: Accuracy score.
 
-Visit the app at .
+Visit the app at https://breast-cancer-wisconsin-diagnosis.streamlit.app/.
 Input fields will appear for features like radius, texture, etc..
 Enter the values and click "Diagnosis Result" to see the result: "Malignant" or "Benign."
 
